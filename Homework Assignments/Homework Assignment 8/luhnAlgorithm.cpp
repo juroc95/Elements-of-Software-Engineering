@@ -11,7 +11,7 @@ int main()
 {
     string cardNumber;
     int result = 0;
-    bool isSecond = true;
+    bool isSecond = false;
     cout << "Please enter card number: ";
     cin >> cardNumber;
     cin.ignore(100, '\n');
